@@ -10,6 +10,7 @@ On that day I decided to track news articles about the topic featured on Germany
 | 09 Mar 2020 | cancellation of any events with more than 1,000 participants by the Health Minister | 1,000+ |
 | 16 Mar 2020 | churches, sports clubs, schools across the country remain closed in most federal states | 7,000+ |
 | 22 Mar 2020 | announcement of a national "contact ban" by chancellor Angela Merkel | 29,000+ |
+| 15 Apr 2020 | chancellor and first ministers align on a plan to lift some restrictions | 132,000,000+ |
 
 
 ## Technical Details
@@ -17,13 +18,16 @@ The program parses the starting page of [Tagesschau](https://www.tagesschau.de/)
 
 ![Alt text](/images/tagesschau_screenshot.png?raw=true "Title")
 
+**Update from 17 April 2020:**
+
+The .py script is now scheduled to run automatically on a daily base via a Task Scheduler on my local computer. For this it was converted into an executable application first - following the instructions [here](https://martechwithme.com/convert-python-script-app-windows-mac/).
+
 ## Installations
 * Python version 3
 * Beautiful Soup
 * Pandas
 
 ## Coming Soon...
-* Planning to run the script automatically at a scheduled time
 * Planning on doing some Natural Language Processing on the data to gain some insights on how official communication is evolving over time
 
 
